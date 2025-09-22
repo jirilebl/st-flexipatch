@@ -401,7 +401,7 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY (ControlMask|Mod1Mask)
+#define MODKEY Mod1Mask
 #define TERMMOD (ControlMask|ShiftMask)
 
 #if EXTERNALPIPE_PATCH // example command

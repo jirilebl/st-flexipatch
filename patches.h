@@ -328,7 +328,7 @@
  * https://codeberg.org/dnkl/foot/wiki#spawning-new-terminal-instances-in-the-current-working-directory
  * https://github.com/veltza/st-sx/commit/817865c2c6ed905af8849580e58bdcf399216fbd
  */
-#define OSC7_PATCH 0
+#define OSC7_PATCH 1
 
 /* This patch allows jumping between prompts by utilizing the OSC 133 escape sequence
  * emitted by shells. Must be used with either reflow or scrollback patch.
@@ -421,7 +421,7 @@
  * shown by vte terminals like termite.
  * https://st.suckless.org/patches/swapmouse/
  */
-#define SWAPMOUSE_PATCH 0
+#define SWAPMOUSE_PATCH 1
 
 /* This patch adds synchronized-updates/application-sync support in st.
  * This will have no effect except when an application uses the synchronized-update escape
@@ -434,7 +434,7 @@
  *
  * https://st.suckless.org/patches/sync/
  */
-#define SYNC_PATCH 0
+#define SYNC_PATCH 1
 
 /* Instead of a default X cursor, use the xterm cursor from your cursor theme.
  * You need to uncomment the corresponding line in config.mk to use the -lXcursor library
